@@ -1,0 +1,485 @@
+.feature-card2-container {
+  gap: var(--dl-space-space-unit);
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.feature-card2-text {
+  font-weight: 600;
+  line-height: 28px;
+}
+@media(max-width: 767px) {
+  .feature-card2-feature-card {
+    flex-direction: row;
+  }
+  .feature-card2-container {
+    flex-direction: column;
+  }
+}
+@media(max-width: 479px) {
+  .feature-card2-container {
+    flex-direction: column;
+  }
+}
+
+.a-downloads-page-with-iso-download-options-it-should-state-that-the-download-files-are-coming-soon-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+}
+.a-downloads-page-with-iso-download-options-it-should-state-that-the-download-files-are-coming-soon-header {
+  width: 100%;
+  display: flex;
+  z-index: 100;
+  position: fixed;
+  align-items: center;
+  flex-direction: column;
+  background-color: var(--dl-color-gray-white);
+}
+.a-downloads-page-with-iso-download-options-it-should-state-that-the-download-files-are-coming-soon-navbar-interactive {
+  height: 163px;
+}
+.a-downloads-page-with-iso-download-options-it-should-state-that-the-download-files-are-coming-soon-desktop-menu {
+  flex: 1;
+  display: flex;
+  justify-content: space-between;
+}
+.a-downloads-page-with-iso-download-options-it-should-state-that-the-download-files-are-coming-soon-image {
+  width: 200px;
+  object-fit: cover;
+}
+.a-downloads-page-with-iso-download-options-it-should-state-that-the-download-files-are-coming-soon-links {
+  flex: 1;
+  height: 125px;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+}
+.a-downloads-page-with-iso-download-options-it-should-state-that-the-download-files-are-coming-soon-nav12 {
+  text-decoration: none;
+}
+.a-downloads-page-with-iso-download-options-it-should-state-that-the-download-files-are-coming-soon-nav22 {
+  margin-left: var(--dl-space-space-unit);
+  text-decoration: none;
+}
+.a-downloads-page-with-iso-download-options-it-should-state-that-the-download-files-are-coming-soon-nav32 {
+  margin-left: var(--dl-space-space-unit);
+}
+.a-downloads-page-with-iso-download-options-it-should-state-that-the-download-files-are-coming-soon-nav42 {
+  margin-left: var(--dl-space-space-unit);
+}
+.a-downloads-page-with-iso-download-options-it-should-state-that-the-download-files-are-coming-soon-buttons {
+  border: 2px dashed rgba(120, 120, 120, 0.4);
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.a-downloads-page-with-iso-download-options-it-should-state-that-the-download-files-are-coming-soon-burger-menu {
+  display: none;
+}
+.a-downloads-page-with-iso-download-options-it-should-state-that-the-download-files-are-coming-soon-icon {
+  width: var(--dl-size-size-xsmall);
+  cursor: pointer;
+  height: var(--dl-size-size-xsmall);
+}
+.a-downloads-page-with-iso-download-options-it-should-state-that-the-download-files-are-coming-soon-mobile-menu1 {
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100vh;
+  display: none;
+  padding: 32px;
+  z-index: 100;
+  position: absolute;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.a-downloads-page-with-iso-download-options-it-should-state-that-the-download-files-are-coming-soon-nav {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.a-downloads-page-with-iso-download-options-it-should-state-that-the-download-files-are-coming-soon-top {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  margin-bottom: var(--dl-space-space-threeunits);
+  justify-content: space-between;
+}
+.a-downloads-page-with-iso-download-options-it-should-state-that-the-download-files-are-coming-soon-close-menu {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.a-downloads-page-with-iso-download-options-it-should-state-that-the-download-files-are-coming-soon-icon02 {
+  width: var(--dl-size-size-xsmall);
+  cursor: pointer;
+  height: var(--dl-size-size-xsmall);
+}
+.a-downloads-page-with-iso-download-options-it-should-state-that-the-download-files-are-coming-soon-links1 {
+  flex: 0 0 auto;
+  display: flex;
+  align-self: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.a-downloads-page-with-iso-download-options-it-should-state-that-the-download-files-are-coming-soon-nav121 {
+  margin-bottom: var(--dl-space-space-unit);
+}
+.a-downloads-page-with-iso-download-options-it-should-state-that-the-download-files-are-coming-soon-nav221 {
+  margin-bottom: var(--dl-space-space-unit);
+}
+.a-downloads-page-with-iso-download-options-it-should-state-that-the-download-files-are-coming-soon-nav321 {
+  margin-bottom: var(--dl-space-space-unit);
+}
+.a-downloads-page-with-iso-download-options-it-should-state-that-the-download-files-are-coming-soon-nav421 {
+  margin-bottom: var(--dl-space-space-unit);
+}
+.a-downloads-page-with-iso-download-options-it-should-state-that-the-download-files-are-coming-soon-buttons1 {
+  display: flex;
+  margin-top: var(--dl-space-space-unit);
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.a-downloads-page-with-iso-download-options-it-should-state-that-the-download-files-are-coming-soon-icon04 {
+  width: var(--dl-size-size-xsmall);
+  height: var(--dl-size-size-xsmall);
+  margin-right: var(--dl-space-space-twounits);
+}
+.a-downloads-page-with-iso-download-options-it-should-state-that-the-download-files-are-coming-soon-icon06 {
+  width: var(--dl-size-size-xsmall);
+  height: var(--dl-size-size-xsmall);
+  margin-right: var(--dl-space-space-twounits);
+}
+.a-downloads-page-with-iso-download-options-it-should-state-that-the-download-files-are-coming-soon-icon08 {
+  width: var(--dl-size-size-xsmall);
+  height: var(--dl-size-size-xsmall);
+}
+.a-downloads-page-with-iso-download-options-it-should-state-that-the-download-files-are-coming-soon-hero {
+  flex: 0 0 auto;
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.a-downloads-page-with-iso-download-options-it-should-state-that-the-download-files-are-coming-soon-hero1 {
+  height: 484px;
+  padding-top: 132px;
+}
+.a-downloads-page-with-iso-download-options-it-should-state-that-the-download-files-are-coming-soon-container1 {
+  flex: 0 0 auto;
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+.a-downloads-page-with-iso-download-options-it-should-state-that-the-download-files-are-coming-soon-container2 {
+  gap: var(--dl-space-space-oneandhalfunits);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.a-downloads-page-with-iso-download-options-it-should-state-that-the-download-files-are-coming-soon-hero-heading {
+  max-width: 800px;
+  text-align: center;
+}
+.a-downloads-page-with-iso-download-options-it-should-state-that-the-download-files-are-coming-soon-hero-sub-heading {
+  font-size: 18px;
+  text-align: center;
+}
+.a-downloads-page-with-iso-download-options-it-should-state-that-the-download-files-are-coming-soon-btn-group {
+  gap: var(--dl-space-space-oneandhalfunits);
+  border: 2px dashed rgba(120, 120, 120, 0.4);
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+.a-downloads-page-with-iso-download-options-it-should-state-that-the-download-files-are-coming-soon-gallery {
+  flex: 0 0 auto;
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.a-downloads-page-with-iso-download-options-it-should-state-that-the-download-files-are-coming-soon-features {
+  flex: 0 0 auto;
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.a-downloads-page-with-iso-download-options-it-should-state-that-the-download-files-are-coming-soon-features1 {
+  gap: var(--dl-space-space-threeunits);
+  width: 100%;
+  display: flex;
+  max-width: var(--dl-size-size-maxwidth);
+  align-items: center;
+  padding-top: var(--dl-space-space-fourunits);
+  padding-left: var(--dl-space-space-threeunits);
+  padding-right: var(--dl-space-space-threeunits);
+  flex-direction: column;
+  padding-bottom: var(--dl-space-space-fourunits);
+  justify-content: flex-start;
+}
+.a-downloads-page-with-iso-download-options-it-should-state-that-the-download-files-are-coming-soon-container3 {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.a-downloads-page-with-iso-download-options-it-should-state-that-the-download-files-are-coming-soon-features-heading {
+  margin-bottom: var(--dl-space-space-oneandhalfunits);
+}
+.a-downloads-page-with-iso-download-options-it-should-state-that-the-download-files-are-coming-soon-features-sub-heading {
+  font-size: 18px;
+  text-align: center;
+}
+.a-downloads-page-with-iso-download-options-it-should-state-that-the-download-files-are-coming-soon-container4 {
+  width: 100%;
+  display: grid;
+  grid-gap: var(--dl-space-space-oneandhalfunits);
+  grid-template-columns: 1fr 1fr;
+}
+.a-downloads-page-with-iso-download-options-it-should-state-that-the-download-files-are-coming-soon-banner {
+  flex: 0 0 auto;
+  width: 100%;
+  border: 2px dashed rgba(120, 120, 120, 0.4);
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.a-downloads-page-with-iso-download-options-it-should-state-that-the-download-files-are-coming-soon-faq {
+  flex: 0 0 auto;
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.a-downloads-page-with-iso-download-options-it-should-state-that-the-download-files-are-coming-soon-faq-container {
+  border: 2px dashed rgba(120, 120, 120, 0.4);
+}
+.a-downloads-page-with-iso-download-options-it-should-state-that-the-download-files-are-coming-soon-container5 {
+  gap: var(--dl-space-space-unit);
+  display: flex;
+  max-width: var(--dl-size-size-maxwidth);
+  align-items: center;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.a-downloads-page-with-iso-download-options-it-should-state-that-the-download-files-are-coming-soon-nav1 {
+  flex: 0 0 auto;
+  display: flex;
+  margin-top: 0px;
+  align-items: center;
+  flex-direction: row;
+}
+.a-downloads-page-with-iso-download-options-it-should-state-that-the-download-files-are-coming-soon-nav122 {
+  font-size: 16px;
+  font-family: "Inter Tight";
+  font-weight: 400;
+  line-height: 150%;
+  text-decoration: underline;
+}
+.a-downloads-page-with-iso-download-options-it-should-state-that-the-download-files-are-coming-soon-nav222 {
+  font-size: 16px;
+  font-family: "Inter Tight";
+  font-weight: 400;
+  line-height: 150%;
+  margin-left: var(--dl-space-space-unit);
+  text-decoration: underline;
+}
+.a-downloads-page-with-iso-download-options-it-should-state-that-the-download-files-are-coming-soon-nav322 {
+  margin-left: var(--dl-space-space-unit);
+}
+.a-downloads-page-with-iso-download-options-it-should-state-that-the-download-files-are-coming-soon-nav422 {
+  margin-left: var(--dl-space-space-unit);
+}
+.a-downloads-page-with-iso-download-options-it-should-state-that-the-download-files-are-coming-soon-separator {
+  flex: 0 0 auto;
+  width: 100%;
+  height: 0px;
+  display: flex;
+  margin-top: var(--dl-space-space-twounits);
+  align-items: flex-start;
+  margin-left: 0px;
+  border-color: var(--dl-color-gray-900);
+  border-style: solid;
+  border-width: 1px;
+  margin-right: 0px;
+  margin-bottom: var(--dl-space-space-twounits);
+  flex-direction: row;
+  border-top-width: 0px;
+  border-left-width: 0px;
+  border-right-width: 0px;
+}
+.a-downloads-page-with-iso-download-options-it-should-state-that-the-download-files-are-coming-soon-container6 {
+  flex: 0 0 auto;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.a-downloads-page-with-iso-download-options-it-should-state-that-the-download-files-are-coming-soon-icon-group1 {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.a-downloads-page-with-iso-download-options-it-should-state-that-the-download-files-are-coming-soon-icon10 {
+  width: 24px;
+  height: 24px;
+  margin-right: var(--dl-space-space-twounits);
+}
+.a-downloads-page-with-iso-download-options-it-should-state-that-the-download-files-are-coming-soon-icon12 {
+  width: 24px;
+  height: 24px;
+  margin-right: var(--dl-space-space-twounits);
+}
+.a-downloads-page-with-iso-download-options-it-should-state-that-the-download-files-are-coming-soon-icon14 {
+  width: 24px;
+  height: 24px;
+}
+@media(max-width: 991px) {
+  .a-downloads-page-with-iso-download-options-it-should-state-that-the-download-files-are-coming-soon-hero1 {
+    flex-direction: column;
+  }
+  .a-downloads-page-with-iso-download-options-it-should-state-that-the-download-files-are-coming-soon-container2 {
+    align-items: center;
+    margin-right: 0px;
+    margin-bottom: var(--dl-space-space-twounits);
+    padding-right: 0px;
+  }
+  .a-downloads-page-with-iso-download-options-it-should-state-that-the-download-files-are-coming-soon-hero-heading {
+    text-align: center;
+  }
+  .a-downloads-page-with-iso-download-options-it-should-state-that-the-download-files-are-coming-soon-hero-sub-heading {
+    text-align: center;
+    padding-left: var(--dl-space-space-threeunits);
+    padding-right: var(--dl-space-space-threeunits);
+  }
+  .a-downloads-page-with-iso-download-options-it-should-state-that-the-download-files-are-coming-soon-features-sub-heading {
+    text-align: center;
+    padding-left: var(--dl-space-space-threeunits);
+    padding-right: var(--dl-space-space-threeunits);
+  }
+}
+@media(max-width: 767px) {
+  .a-downloads-page-with-iso-download-options-it-should-state-that-the-download-files-are-coming-soon-navbar-interactive {
+    padding-left: var(--dl-space-space-twounits);
+    padding-right: var(--dl-space-space-twounits);
+  }
+  .a-downloads-page-with-iso-download-options-it-should-state-that-the-download-files-are-coming-soon-desktop-menu {
+    display: none;
+  }
+  .a-downloads-page-with-iso-download-options-it-should-state-that-the-download-files-are-coming-soon-burger-menu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .a-downloads-page-with-iso-download-options-it-should-state-that-the-download-files-are-coming-soon-nav121 {
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .a-downloads-page-with-iso-download-options-it-should-state-that-the-download-files-are-coming-soon-nav221 {
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .a-downloads-page-with-iso-download-options-it-should-state-that-the-download-files-are-coming-soon-nav321 {
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .a-downloads-page-with-iso-download-options-it-should-state-that-the-download-files-are-coming-soon-nav421 {
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .a-downloads-page-with-iso-download-options-it-should-state-that-the-download-files-are-coming-soon-hero1 {
+    padding-left: var(--dl-space-space-twounits);
+    padding-right: var(--dl-space-space-twounits);
+  }
+  .a-downloads-page-with-iso-download-options-it-should-state-that-the-download-files-are-coming-soon-hero-sub-heading {
+    padding-left: var(--dl-space-space-unit);
+    padding-right: var(--dl-space-space-unit);
+  }
+  .a-downloads-page-with-iso-download-options-it-should-state-that-the-download-files-are-coming-soon-features1 {
+    padding-left: var(--dl-space-space-twounits);
+    padding-right: var(--dl-space-space-twounits);
+  }
+  .a-downloads-page-with-iso-download-options-it-should-state-that-the-download-files-are-coming-soon-features-sub-heading {
+    padding-left: var(--dl-space-space-unit);
+    padding-right: var(--dl-space-space-unit);
+  }
+  .a-downloads-page-with-iso-download-options-it-should-state-that-the-download-files-are-coming-soon-container4 {
+    grid-template-columns: 1fr;
+  }
+  .a-downloads-page-with-iso-download-options-it-should-state-that-the-download-files-are-coming-soon-footer {
+    padding-left: var(--dl-space-space-twounits);
+    padding-right: var(--dl-space-space-twounits);
+  }
+  .a-downloads-page-with-iso-download-options-it-should-state-that-the-download-files-are-coming-soon-separator {
+    margin-top: var(--dl-space-space-oneandhalfunits);
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: var(--dl-space-space-oneandhalfunits);
+  }
+  .a-downloads-page-with-iso-download-options-it-should-state-that-the-download-files-are-coming-soon-container6 {
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .a-downloads-page-with-iso-download-options-it-should-state-that-the-download-files-are-coming-soon-text32 {
+    margin-bottom: var(--dl-space-space-oneandhalfunits);
+  }
+}
+@media(max-width: 479px) {
+  .a-downloads-page-with-iso-download-options-it-should-state-that-the-download-files-are-coming-soon-navbar-interactive {
+    padding: var(--dl-space-space-unit);
+  }
+  .a-downloads-page-with-iso-download-options-it-should-state-that-the-download-files-are-coming-soon-mobile-menu1 {
+    padding: 16px;
+  }
+  .a-downloads-page-with-iso-download-options-it-should-state-that-the-download-files-are-coming-soon-hero1 {
+    padding-top: var(--dl-space-space-twounits);
+    padding-left: var(--dl-space-space-unit);
+    padding-right: var(--dl-space-space-unit);
+    padding-bottom: var(--dl-space-space-twounits);
+  }
+  .a-downloads-page-with-iso-download-options-it-should-state-that-the-download-files-are-coming-soon-container2 {
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .a-downloads-page-with-iso-download-options-it-should-state-that-the-download-files-are-coming-soon-btn-group {
+    flex-direction: column;
+  }
+  .a-downloads-page-with-iso-download-options-it-should-state-that-the-download-files-are-coming-soon-features1 {
+    padding-top: var(--dl-space-space-twounits);
+    padding-left: var(--dl-space-space-unit);
+    padding-right: var(--dl-space-space-unit);
+    padding-bottom: var(--dl-space-space-twounits);
+  }
+  .a-downloads-page-with-iso-download-options-it-should-state-that-the-download-files-are-coming-soon-footer {
+    padding: var(--dl-space-space-unit);
+  }
+  .a-downloads-page-with-iso-download-options-it-should-state-that-the-download-files-are-coming-soon-separator {
+    margin-top: var(--dl-space-space-oneandhalfunits);
+    margin-bottom: var(--dl-space-space-oneandhalfunits);
+  }
+  .a-downloads-page-with-iso-download-options-it-should-state-that-the-download-files-are-coming-soon-container6 {
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .a-downloads-page-with-iso-download-options-it-should-state-that-the-download-files-are-coming-soon-text32 {
+    text-align: center;
+    margin-bottom: var(--dl-space-space-oneandhalfunits);
+  }
+}
