@@ -69,6 +69,7 @@
 }
 .downloads-nav32 {
   margin-left: var(--dl-space-space-unit);
+  text-decoration: none;
 }
 .downloads-buttons {
   border: 2px dashed rgba(120, 120, 120, 0.4);
@@ -284,9 +285,6 @@
 .downloads-nav322 {
   margin-left: var(--dl-space-space-unit);
   text-decoration: none;
-}
-.downloads-nav421 {
-  margin-left: var(--dl-space-space-unit);
 }
 .downloads-separator {
   flex: 0 0 auto;

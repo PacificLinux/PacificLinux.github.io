@@ -342,9 +342,6 @@
   margin-left: var(--dl-space-space-unit);
   text-decoration: none;
 }
-.home-nav421 {
-  margin-left: var(--dl-space-space-unit);
-}
 .home-separator {
   flex: 0 0 auto;
   width: 100%;
